@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"><!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"><!--=============== SWIPER CSS ===============--> 
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+  </head>
+  <body> 
+    <header class="header" id="header">
+      <nav class="nav container"><a class="nav__logo" href="/"><img class="nav__logo-img" src="assets/img/logo.png" alt="Logo">Hallowen</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="/">home</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="/about.html">about</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="/candy.html">candy</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="/new.html">new</a>
+            </li>
+            <li class="nav__item"><a class="button button--ghost" href="#">Support</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close"><i class="bx bx-x"></i></div><img class="nav__img" src="assets/img/nav-img.png" alt="spider">
+        </div>
+        <div class="nav__toggle" id="nav-toggle"><i class="bx bx-grid-alt"></i></div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section new" id="new">
+        <h2 class="section__title">New Arrivals</h2>
+        <div class="new__container container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <article class="new__content swiper-slide">
+                <div class="new__tag">New</div><img class="new__img" src="assets/img/new1-img.png" alt="">
+                <h3 class="new__title">Haunted House</h3><span class="new__subtitle">Accessory</span>
+                <div class="new__prices"><span class="new__price">$14.99</span><span class="new__discount">$29.99</span></div>
+                <button class="button new__button"><i class="bx bx-cart-alt new__icon"></i></button>
+              </article>
+              <article class="new__content swiper-slide">
+                <div class="new__tag">New</div><img class="new__img" src="assets/img/new2-img.png" alt="">
+                <h3 class="new__title">Halloween Candle</h3><span class="new__subtitle">Accessory</span>
+                <div class="new__prices"><span class="new__price">$11.99</span><span class="new__discount">$21.99</span></div>
+                <button class="button new__button"><i class="bx bx-cart-alt new__icon"></i></button>
+              </article>
+              <article class="new__content swiper-slide">
+                <div class="new__tag">New</div><img class="new__img" src="assets/img/new3-img.png" alt="">
+                <h3 class="new__title">Witch Hat</h3><span class="new__subtitle">Accessory</span>
+                <div class="new__prices"><span class="new__price">$4.99</span><span class="new__discount">$9.99</span></div>
+                <button class="button new__button"><i class="bx bx-cart-alt new__icon"></i></button>
+              </article>
+              <article class="new__content swiper-slide">
+                <div class="new__tag">New</div><img class="new__img" src="assets/img/new4-img.png" alt="">
+                <h3 class="new__title">Rip</h3><span class="new__subtitle">Accessory</span>
+                <div class="new__prices"><span class="new__price">$24.99</span><span class="new__discount">$44.99</span></div>
+                <button class="button new__button"><i class="bx bx-cart-alt new__icon"></i></button>
+              </article>
+              <article class="new__content swiper-slide">
+                <div class="new__tag">New</div><img class="new__img" src="assets/img/new5-img.png" alt="">
+                <h3 class="new__title">Terrifying Crystal Ball</h3><span class="new__subtitle">Accessory</span>
+                <div class="new__prices"><span class="new__price">$5.99</span><span class="new__discount">$12.99</span></div>
+                <button class="button new__button"><i class="bx bx-cart-alt new__icon"></i></button>
+              </article>
+              <article class="new__content swiper-slide">
+                <div class="new__tag">New</div><img class="new__img" src="assets/img/new6-img.png" alt="">
+                <h3 class="new__title">Witch Broom</h3><span class="new__subtitle">Accessory</span>
+                <div class="new__prices"><span class="new__price">$7.99</span><span class="new__discount">$14.99</span></div>
+                <button class="button new__button"><i class="bx bx-cart-alt new__icon"></i></button>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section><!--==================== OUR NEWSLETTER ====================-->
+      <section class="section newsletter">
+        <div class="newsletter__container container">
+          <h2 class="section__title">Our Newsletter</h2>
+          <p class="newsletter__description">Promotion new products and sales. Directly to your inbox</p>
+          <form class="newsletter__form" action="GET">
+            <input class="newsletter__input" type="text" placeholder="Enter your email">
+            <button class="button button--orange">Subscribete</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content"><a class="footer__logo" href="#"><img class="footer__logo-img" src="assets/img/logo.png" alt="">Halloween</a>
+          <p class="footer__description">Enjoy the scariest night <br>of your life.</p>
+          <div class="footer__social"><a class="footer__social-link" href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a><a class="footer__social-link" href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram-alt"></i></a><a class="footer__social-link" href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a></div>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">About</h3>
+          <ul class="footer__links">
+            <li><a class="footer__link" href="#">About Us</a></li>
+            <li><a class="footer__link" href="#">Features</a></li>
+            <li><a class="footer__link" href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Our Services</h3>
+          <ul class="footer__links">
+            <li><a class="footer__link" href="#">Pricing</a></li>
+            <li><a class="footer__link" href="#">Discounts</a></li>
+            <li><a class="footer__link" href="#">Shipping mode</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Our Company</h3>
+          <ul class="footer__links">
+            <li><a class="footer__link" href="#">Blog</a></li>
+            <li><a class="footer__link" href="#">About us</a></li>
+            <li><a class="footer__link" href="#">Our mision</a></li>
+          </ul>
+        </div>
+      </div><span class="footer__copy">&#169; Bedimcode. All rigths reserved</span><img class="footer__img-one" src="assets/img/footer1-img.png" alt=""><img class="footer__img-two" src="assets/img/footer2-img.png" alt="">
+    </footer><!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/scripts-min.js"> </script>
+  </body>
+</html>
